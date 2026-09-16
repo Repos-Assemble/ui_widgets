@@ -1,0 +1,18 @@
+name: ui_widgets
+description: "A collection of better components"
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  common_utils:
+    git:
+      url: https://github.com/Repos-Assemble/common_utils.git
+      ref: main
+
+dev_dependencies:
+  very_good_analysis: ^7.0.0
